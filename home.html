@@ -11,15 +11,32 @@
 
 <body>
 <!-- Nav Bar -->
-<div id="nav-placeholder"></div>
-<script>$(function(){$("#nav-placeholder").load("help/nav.html");});</script>
+<nav>
+    <div>
+        <a href="/">
+            <div id="logo"><img src="image.png" alt="Logo"/></div>
+
+        </a>
+    </div>
+    <div>
+        <a href="/" class="here">Home</a>
+        <a href="/about.html" >About</a>
+        <a href="/services.html" >Services</a>
+        <a href="/pricing.html" >Pricing</a>
+        <a href="/contact.html" >Contact Us</a>
+        <input id="srchbar" type="search" placeholder="Search">
+    </div>
+</nav>
 
 
 
 
 
-<!-- Footer-->
-<div id="footer-placeholder"></div>
-<script>$(function(){$("#footer-placeholder").load("help/footer.html");});</script>
+
+<footer>
+	<p>Tyler Johanson and Tyler Todd, Copyright &copy; 2021 - IT353 - Web Development Technologies </p>
+	<script>document.write("Last Modified: "+ document.lastModified);</script>
+</footer>
+  
 </body>
 </html>
